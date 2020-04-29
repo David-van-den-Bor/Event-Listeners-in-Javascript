@@ -10,5 +10,5 @@ Edit / Play around with it for yourself in **Plunker**! > See link below:
 https://plnkr.co/edit/gist:a683335eae6e4caadc5b70a4417efb85
 
 ### repo
-https://embed.plnkr.co/github/David-van-den-Bor/tutorial/tutorial-branch
+https://embed.plnkr.co/github/David-van-den-Bor/Event-Listeners-in-Javascript
 
