@@ -18,12 +18,12 @@ document.addEventListener("click", function (event) {
 document.addEventListener("mouseover", function (event) {
 	if (event.target.matches(".hello")) {
 		document.querySelector(".post-it").textContent =
-			"The Mouse HOVERS on Hello!";
+			"Mouse HOVERS on Hello!";
 		return;
 	}
 	if (event.target.matches(".goodbye")) {
 		document.querySelector(".post-it").textContent =
-			"The mouse HOVERS on Goodbye!";
+			"Mouse HOVERS on Goodbye!";
 		return;
 	}
 });
