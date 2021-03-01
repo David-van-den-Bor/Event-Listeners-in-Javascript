@@ -1,33 +1,41 @@
 body {
-  margin: 0 auto;
-  padding:1%;
-  max-width:400px; 
-  font-family: sans-serif;
+	margin: 0 auto;
+	padding: 5%;
+	max-width: 400px;
+	font-family: sans-serif;
 }
 
 button {
-  position:relative;
-  background:green;
-  color:white;
-  padding:20px 40px;
-  font-size:30px;
-  border-radius:10px;
-  cursor:pointer;
-  transition: all .2s ease;
+	position: relative;
+	background: green;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	color: white;
+	padding: 20px 40px;
+	font-size: 30px;
+	border-radius: 10px;
+	outline: none;
+	cursor: pointer;
+	transition: all 0.2s ease;
 }
 
 button:hover {
-  background: #000;
+	background: #000;
 }
 
-.notitie {
-  background-color: lightgrey;
-  min-height:100px;
-  padding: 2%;
-  display:grid;
-  width:100%;
-  text-align: center;
-  align-items: center;
-  margin-top:  20px;
-  border-radius:10px;
+button:active {
+	margin: 8px 0 5px 5px;
+}
+
+.post-it {
+	background-color: yellow;
+	min-height: 100px;
+	transform: rotate(5deg);
+	padding: 2%;
+	width: 90%;
+	display: grid;
+	text-align: center;
+	align-items: center;
+	margin-top: 40px;
+	box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.541);
 }
