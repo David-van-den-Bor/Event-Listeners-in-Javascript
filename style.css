@@ -36,6 +36,11 @@ button:active {
 	display: grid;
 	text-align: center;
 	align-items: center;
-	margin-top: 40px;
+	margin: 40px 0 60px 0;
 	box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.541);
+}
+
+img {
+	width:100%;
+	height:auto;
 }
