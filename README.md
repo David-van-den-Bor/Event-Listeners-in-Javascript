@@ -8,5 +8,5 @@ You simply set up a global Event Listener for one particular event, like mouse c
 Edit / Play around with the code for yourself in **CodeSandBox**! > See link below:
 https://githubbox.com/davidvandenbor/Event-Listeners-in-Javascript
 
-<img src="global-event-listener.png">
+<img src="event-listener-global.png">
 
